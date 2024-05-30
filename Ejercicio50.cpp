@@ -6,19 +6,20 @@ int main() {
     const int columnas = 3;
     int tabla[fil][columnas];
 
-    cout<<"dame los valores para la tabla (4 filas y 3 columnas):" << endl;
-    for (int i=0;i<fil;++i) {
-        for (int j=0;j<columnas;++j) {
-            cout<<""<<i<<""<<j<<"";
-            cin>>tabla[i][j];
+    cout << "Dame los valores para la tabla (4 filas y 3 columnas):" << endl;
+    for (int i = 0; i < fil; ++i) {
+        for (int j = 0; j < columnas; ++j) {
+            cout << "Fila " << i << ", Columna " << j << ": ";
+            cin >> tabla[i][j];
         }
     }
-    cout<<"\nlos numeros son:"<<endl;
-    for (int i=0;i<fil;++i) {
-        for (int j=0;j<columnas;++j) {
-            cout<<tabla[i][j]<<"\t";
+    
+    cout << "\nLos números son:" << endl;
+    for (int i = 0; i < fil; ++i) {
+        for (int j = 0; j < columnas; ++j) {
+            cout << tabla[i][j] << "\t";
         }
-        cout<<endl;
+        cout << endl;
     }
 
     return 0;
