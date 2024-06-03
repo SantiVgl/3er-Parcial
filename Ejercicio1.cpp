@@ -3,7 +3,8 @@
 int main() 
 {
     int num1, num2, num3;
-    //abreviar std::cout
+    //abreviar std::cout en todos sus programas
+    
     std::cout << "Dame el primer numero: ";
     std::cin >> num1;
     std::cout << "Dame el segundo numero: ";
