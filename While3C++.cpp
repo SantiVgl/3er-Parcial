@@ -1,14 +1,14 @@
 #include <iostream>
+using namespace std;
 
 int main () 
 {
-	int i = 100;
+	int i=100;
 
 	while ( i >= 1) 
 	{
-		std::cout << i << std::endl;
+		cout<<i<<endl;
 		i--;
 	}
-
-	return 0;
+return 0;
 }
