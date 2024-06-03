@@ -1,12 +1,13 @@
 #include <iostream>
+using namespace std;
 
 int main() 
 {
     int i;
 
-    for (i = 2; i <= 100; i += 2) 
+    for (i =2;i<=100;i+=2) 
     {
-        std::cout << i << std::endl;
+        cout<<i<<endl;
     }
 
     return 0;
